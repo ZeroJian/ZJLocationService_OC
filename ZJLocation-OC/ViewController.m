@@ -24,7 +24,7 @@
   [ZJLocationService statrLocation];
   
 
-  [ZJLocationService backgroundForPauseTime:30 locationCounts:4];
+  [ZJLocationService backgroundForPauseTime:30 locationCounts:10];
   
   __weak ViewController *weakSelf = self;
  
