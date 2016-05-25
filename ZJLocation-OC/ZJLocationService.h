@@ -11,10 +11,10 @@
 
 @interface ZJLocationService : NSObject <CLLocationManagerDelegate>
 
-typedef void (^didUpdateLocation)(CLLocation *location);
+typedef void (^updateLocationBlock)(CLLocation *);
 
-@property (nonatomic, copy) didUpdateLocation updateBlock;
-@property (nonatomic, copy) didUpdateLocation lastBlock;
+@property (nonatomic, copy) updateLocationBlock updateBlock;
+@property (nonatomic, copy) updateLocationBlock lastBlock;
 
 + (void)statrLocation;
 + (void)stopLocation;
@@ -25,7 +25,4 @@ typedef void (^didUpdateLocation)(CLLocation *location);
 + (void)backgroundForLocationCounts:(int)counts;
 
 
-- (CLLocationManager *)locationManager;
-- (void)begionBackgroundTask;
-- (void)initialBackgroundTask;
 @end
