@@ -18,15 +18,21 @@
 ---
 updating location:
 
-	[ZJLocationService startLocation];
-	
+```objective-c
+[ZJLocationService startLocation];
+```	
+
 stopUpdating location:
-	
-	[ZJLocationService stopLocation];
+
+```objective-c	
+[ZJLocationService stopLocation];
+```
 	
 default and maximal timeInterval is 179 seconds, if you custom timeInterval:
 
-	[ZJLocationService backgroundForPauseTime:100];
+```objective-c
+[ZJLocationService backgroundForPauseTime:100];
+```
 	
 you can custom background location number (default: 5)
 	
