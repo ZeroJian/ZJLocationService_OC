@@ -16,7 +16,6 @@
   NSTimer *timer;
   BackgroundTask *backgroundTask;
   double seconds;
-  CLLocation *newLocation;
   int locationCounts;
   
 }
