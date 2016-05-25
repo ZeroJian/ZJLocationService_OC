@@ -35,25 +35,31 @@ default and maximal timeInterval is 179 seconds, if you custom timeInterval:
 ```
 	
 you can custom background location number (default: 5)
-	
-	[ZJLocationService backgroundForLocationCounts:10];
+
+```objective-c	
+[ZJLocationService backgroundForLocationCounts:10];
+```
 	
 At the same time set them
 
-	[ZJLocationService backgroundForPauseTime:100 locationCounts:10];
+```objective-c
+[ZJLocationService backgroundForPauseTime:100 locationCounts:10];
+```
 	
 if you need currentLocation:
-
-	[ZJLocationService sharedModel].updateBlock = ^(CLLocation *location) {
+```objective-c
+[ZJLocationService sharedModel].updateBlock = ^(CLLocation *location) {
  	NSLog(@"currentLocation: %f", location.coordinate.latitude);
-  	};
+  };
+```
 
 If you need the last location before each stopLocation:
 
-	[ZJLocationService sharedModel].lastBlock = ^(CLLocation *location) {
-		NSLog(@"lastBackgroundLocation: %f", location.coordinate.latitude);
+```objective-c
+[ZJLocationService sharedModel].lastBlock = ^(CLLocation *location) {
+	NSLog(@"lastBackgroundLocation: %f", location.coordinate.latitude);
 	};
-
+```
 
 ### License
 
