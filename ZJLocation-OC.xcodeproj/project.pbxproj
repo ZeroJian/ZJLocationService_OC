@@ -1,0 +1,329 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		320C5C7B1CE2323B00951161 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 320C5C7A1CE2323B00951161 /* main.m */; };
+		320C5C7E1CE2323B00951161 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 320C5C7D1CE2323B00951161 /* AppDelegate.m */; };
+		320C5C811CE2323B00951161 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 320C5C801CE2323B00951161 /* ViewController.m */; };
+		320C5C841CE2323B00951161 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 320C5C821CE2323B00951161 /* Main.storyboard */; };
+		320C5C861CE2323B00951161 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 320C5C851CE2323B00951161 /* Assets.xcassets */; };
+		320C5C891CE2323B00951161 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 320C5C871CE2323B00951161 /* LaunchScreen.storyboard */; };
+		320C5C921CE2329300951161 /* ZJLocationService.m in Sources */ = {isa = PBXBuildFile; fileRef = 320C5C911CE2329300951161 /* ZJLocationService.m */; };
+		320C5C951CE36EF700951161 /* BackgroundTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 320C5C941CE36EF700951161 /* BackgroundTask.m */; };
+		320C5CBA1CE4C31700951161 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320C5CB91CE4C31700951161 /* CoreLocation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		320C5C761CE2323B00951161 /* ZJLocation-OC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ZJLocation-OC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		320C5C7A1CE2323B00951161 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		320C5C7C1CE2323B00951161 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		320C5C7D1CE2323B00951161 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		320C5C7F1CE2323B00951161 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		320C5C801CE2323B00951161 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		320C5C831CE2323B00951161 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		320C5C851CE2323B00951161 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		320C5C881CE2323B00951161 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		320C5C8A1CE2323B00951161 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		320C5C901CE2329300951161 /* ZJLocationService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJLocationService.h; sourceTree = "<group>"; };
+		320C5C911CE2329300951161 /* ZJLocationService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJLocationService.m; sourceTree = "<group>"; };
+		320C5C931CE36EF700951161 /* BackgroundTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackgroundTask.h; sourceTree = "<group>"; };
+		320C5C941CE36EF700951161 /* BackgroundTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BackgroundTask.m; sourceTree = "<group>"; };
+		320C5CB91CE4C31700951161 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		320C5C731CE2323B00951161 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				320C5CBA1CE4C31700951161 /* CoreLocation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		320C5C6D1CE2323B00951161 = {
+			isa = PBXGroup;
+			children = (
+				320C5CB91CE4C31700951161 /* CoreLocation.framework */,
+				320C5C781CE2323B00951161 /* ZJLocation-OC */,
+				320C5C771CE2323B00951161 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		320C5C771CE2323B00951161 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				320C5C761CE2323B00951161 /* ZJLocation-OC.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		320C5C781CE2323B00951161 /* ZJLocation-OC */ = {
+			isa = PBXGroup;
+			children = (
+				320C5C7C1CE2323B00951161 /* AppDelegate.h */,
+				320C5C7D1CE2323B00951161 /* AppDelegate.m */,
+				320C5C7F1CE2323B00951161 /* ViewController.h */,
+				320C5C801CE2323B00951161 /* ViewController.m */,
+				320C5C821CE2323B00951161 /* Main.storyboard */,
+				320C5C851CE2323B00951161 /* Assets.xcassets */,
+				320C5C871CE2323B00951161 /* LaunchScreen.storyboard */,
+				320C5C8A1CE2323B00951161 /* Info.plist */,
+				320C5C791CE2323B00951161 /* Supporting Files */,
+				320C5C901CE2329300951161 /* ZJLocationService.h */,
+				320C5C911CE2329300951161 /* ZJLocationService.m */,
+				320C5C931CE36EF700951161 /* BackgroundTask.h */,
+				320C5C941CE36EF700951161 /* BackgroundTask.m */,
+			);
+			path = "ZJLocation-OC";
+			sourceTree = "<group>";
+		};
+		320C5C791CE2323B00951161 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				320C5C7A1CE2323B00951161 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		320C5C751CE2323B00951161 /* ZJLocation-OC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 320C5C8D1CE2323B00951161 /* Build configuration list for PBXNativeTarget "ZJLocation-OC" */;
+			buildPhases = (
+				320C5C721CE2323B00951161 /* Sources */,
+				320C5C731CE2323B00951161 /* Frameworks */,
+				320C5C741CE2323B00951161 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ZJLocation-OC";
+			productName = "ZJLocation-OC";
+			productReference = 320C5C761CE2323B00951161 /* ZJLocation-OC.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		320C5C6E1CE2323B00951161 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = ZeroJian;
+				TargetAttributes = {
+					320C5C751CE2323B00951161 = {
+						CreatedOnToolsVersion = 7.3.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 320C5C711CE2323B00951161 /* Build configuration list for PBXProject "ZJLocation-OC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 320C5C6D1CE2323B00951161;
+			productRefGroup = 320C5C771CE2323B00951161 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				320C5C751CE2323B00951161 /* ZJLocation-OC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		320C5C741CE2323B00951161 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				320C5C891CE2323B00951161 /* LaunchScreen.storyboard in Resources */,
+				320C5C861CE2323B00951161 /* Assets.xcassets in Resources */,
+				320C5C841CE2323B00951161 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		320C5C721CE2323B00951161 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				320C5C921CE2329300951161 /* ZJLocationService.m in Sources */,
+				320C5C811CE2323B00951161 /* ViewController.m in Sources */,
+				320C5C7E1CE2323B00951161 /* AppDelegate.m in Sources */,
+				320C5C951CE36EF700951161 /* BackgroundTask.m in Sources */,
+				320C5C7B1CE2323B00951161 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		320C5C821CE2323B00951161 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				320C5C831CE2323B00951161 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		320C5C871CE2323B00951161 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				320C5C881CE2323B00951161 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		320C5C8B1CE2323B00951161 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		320C5C8C1CE2323B00951161 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		320C5C8E1CE2323B00951161 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "ZJLocation-OC/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zerojian.ZJLocation-OC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		320C5C8F1CE2323B00951161 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "ZJLocation-OC/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zerojian.ZJLocation-OC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		320C5C711CE2323B00951161 /* Build configuration list for PBXProject "ZJLocation-OC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				320C5C8B1CE2323B00951161 /* Debug */,
+				320C5C8C1CE2323B00951161 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		320C5C8D1CE2323B00951161 /* Build configuration list for PBXNativeTarget "ZJLocation-OC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				320C5C8E1CE2323B00951161 /* Debug */,
+				320C5C8F1CE2323B00951161 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 320C5C6E1CE2323B00951161 /* Project object */;
+}
